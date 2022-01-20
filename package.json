@@ -1,0 +1,20 @@
+{
+    "name": "java-maven-template",
+    "version": "1.0.0",
+    "description": "This is a reusable github template",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dsvellal/java-maven-template.git"
+    },
+    "scripts": {
+      "test": "./checks.sh",
+      "watch": "npm-watch test"
+    },
+    "author": "Dattatreya S Vellal",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dsvellal/java-maven-template/issues"
+    },
+    "homepage": "https://github.com/dsvellal/java-maven-template/README.md"
+}

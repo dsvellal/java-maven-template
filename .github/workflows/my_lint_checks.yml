@@ -1,0 +1,10 @@
+name: My local lint checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+    - run: npm list -g --depth=0 
+    - run: sh ./checks.sh
